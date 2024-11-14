@@ -1,0 +1,60 @@
+# Chappss API
+
+Welcome to the Chappss API! This is a REST API built using Hono. The API allows you to manage and interact with the Chappss application.
+
+## 📚 Table of Contents
+
+- [📥 Installation](#installation)
+- [🚀 Usage](#usage)
+
+## 📥 Installation
+
+To get started with the Chappss API, follow these steps:
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/ItsMalma/chappss-api
+```
+
+2. Navigate to the project directory:
+
+```sh
+cd chappss-api
+```
+
+3. Install the dependencies:
+
+```sh
+npm install # Using NPM (NodeJS)
+bun install # Using Bun
+yarn add # Using Yarn
+```
+
+## 🚀 Usage
+
+To start the API server, follow these steps:
+
+1. Build the application
+
+```sh
+npm run build # Using NPM (NodeJS)
+bun run build # Using Bun
+yarn build # Using Yarn
+```
+
+2. Copy the `.env.example` file to `.env`
+
+```sh
+cp .env.example .env
+```
+
+3. Edit the `.env` file and provide the necessary environment variables.
+
+4. Start the application
+
+```sh
+npm run start # Using NPM (NodeJS)
+bun run start # Using Bun
+yarn start # Using Yarn
+```

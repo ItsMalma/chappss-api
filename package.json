@@ -1,0 +1,32 @@
+{
+  "name": "chappss-api",
+  "version": "0.0.1",
+  "description": "Chappss API",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Malma",
+    "email": "adamakmal789@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ItsMalma/chappss-api"
+  },
+  "keywords": [
+    "api"
+  ],
+  "scripts": {
+    "build": "bun build src/index.ts --target=bun --outdir=dist --root=src --minify",
+    "compile": "bun build src/index.ts --compile --target=bun --outfile=bin/chappss --root=src",
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run dist/index.js"
+  },
+  "dependencies": {
+    "hono": "^4.6.10"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.3.3",
+    "prisma": "^5.22.0"
+  }
+}
